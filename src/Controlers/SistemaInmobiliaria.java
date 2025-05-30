@@ -13,6 +13,7 @@ public class SistemaInmobiliaria {
     double ventasTotal=0;
 
 
+
     // Registrar Inmueble
     public void crearInmueble (String id, double precio, double area, String estado, String tipo, double metrosconstruccion, int habitaciones, int pisos){
         Casa c = new Casa(id,precio, area, estado, tipo, metrosconstruccion, habitaciones, pisos);

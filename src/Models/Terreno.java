@@ -20,6 +20,7 @@ public class Terreno extends Inmueble{
         this.ubicacion = ubicacion;
     }
 
+
     public String getCerramiento() {
         return cerramiento;
     }

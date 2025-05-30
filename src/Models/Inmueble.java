@@ -20,6 +20,7 @@ public class Inmueble {
     }
 
 
+
     public String getId() {
         return id;
     }

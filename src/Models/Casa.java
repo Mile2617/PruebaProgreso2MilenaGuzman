@@ -20,6 +20,7 @@ public class Casa extends Inmueble{
         this.metrosconstruccion = metrosconstruccion;
     }
 
+
     public int getHabitaciones() {
         return habitaciones;
     }

@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) {
         int opcion;
         do{
+
             System.out.println("\nMenu Inmobiliaria");
             System.out.println("1. Registrar Inmueble");
             System.out.println("2. Buscar Inmueble");

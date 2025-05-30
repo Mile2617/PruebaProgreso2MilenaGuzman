@@ -20,6 +20,7 @@ public class Departamento extends Inmueble {
         this.habitaciones = habitaciones;
     }
 
+
     public double getAlicuota() {
         return alicuota;
     }
