@@ -67,6 +67,32 @@ public class SistemaInmobiliaria {
         System.out.println("Inmueble no encontrado");
     }
 
+
+    public List<Inmueble> buscarInmueblePorTipo(String tipo) {
+        List<Inmueble> resultado = new ArrayList<>();
+        for (Inmueble inmueble : inmuebles) {
+            if (inmueble.getTipo().equalsIgnoreCase(tipo)) {
+                resultado.add(inmueble);
+            }
+        }
+        return resultado;
+    }
+
+    // Buscar inmuebles por estado
+    public List<Inmueble> buscarInmueblePorEstado(String estado) {
+        List<Inmueble> resultado = new ArrayList<>();
+        for (Inmueble inmueble : inmuebles) {
+            if (inmueble.getEstado().equalsIgnoreCase(estado)) {
+                resultado.add(inmueble);
+            }
+        }
+        return resultado;
+    }
+
+    // Listar todos los inmuebles
+    public List<Inmueble> listarInmuebles() {
+        return new ArrayList<>(inmuebles);
+    }
     // Listar
     public void listarInmueble(){
         int i = 1;
